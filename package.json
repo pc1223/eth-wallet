@@ -9,7 +9,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "element-ui": "^2.15.6",
+    "ethers": "^5.4.7",
+    "moment": "^2.29.1",
+    "vue": "^2.6.11",
+    "vue-json-excel": "^0.3.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
