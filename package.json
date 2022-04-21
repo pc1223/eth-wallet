@@ -1,6 +1,6 @@
 {
   "name": "eth-wallet",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -11,9 +11,10 @@
     "core-js": "^3.6.5",
     "element-ui": "^2.15.6",
     "ethers": "^5.4.7",
+    "file-saver": "^2.0.5",
     "moment": "^2.29.1",
     "vue": "^2.6.11",
-    "vue-json-excel": "^0.3.0"
+    "xlsx": "^0.14.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -22,6 +23,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "script-loader": "0.7.2",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

@@ -1,19 +1,23 @@
 <template>
   <div id="app">
-    <HelloWorld style="height: 100%"/>
+    <wallet/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import wallet from './components/wallet'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    wallet
   }
 }
 </script>
 
 <style>
+#app{
+  height: 100%;
+  width: 100%;
+}
 </style>
